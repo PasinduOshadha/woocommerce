@@ -110,7 +110,7 @@ final class ProductFilterAttribute extends AbstractBlock {
 				continue;
 			}
 
-			// Filter out empty slugs and trim whitespace
+			// Filter out empty slugs and trim whitespace.
 			$term_slugs = array_filter(
 				array_map( 'trim', explode( ',', $params[ $param_key ] ) ),
 			);
