@@ -1,0 +1,4 @@
+Significance: patch
+Type: fix
+
+Direct merchants to the core profiler if it's incomplete when they first engage with the onboarding tasklist.
