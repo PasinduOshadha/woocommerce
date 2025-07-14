@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks;
 
 use Automattic\WooCommerce\Internal\Admin\Onboarding\OnboardingProfile;
