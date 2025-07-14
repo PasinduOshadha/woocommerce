@@ -75,6 +75,6 @@ class CoreProfiler extends Task {
 	 * @return bool
 	 */
 	public function can_view() {
-		return class_exists( 'Automattic\WooCommerce\Internal\Admin\Onboarding\OnboardingProfile' );
+		return true;
 	}
 }
