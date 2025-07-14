@@ -43,6 +43,7 @@ class TaskLists {
 	 * @var array
 	 */
 	const DEFAULT_TASKS = array(
+		'CoreProfiler',
 		'StoreDetails',
 		'Products',
 		'WooCommercePayments',
@@ -109,6 +110,7 @@ class TaskLists {
 	 */
 	public static function init_default_lists() {
 		$tasks = array(
+			'CoreProfiler',
 			'CustomizeStore',
 			'StoreDetails',
 			'Products',
