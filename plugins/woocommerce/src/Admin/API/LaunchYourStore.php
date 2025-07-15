@@ -128,7 +128,7 @@ class LaunchYourStore {
 			return;
 		}
 
-		$coming_soon      = 'yes';
+		$coming_soon      = get_option( 'woocommerce_coming_soon', 'yes' );
 		$store_pages_only = WCAdminHelper::is_site_fresh() ? 'no' : 'yes';
 		$private_link     = 'no';
 		$share_key        = wp_generate_password( 32, false );
